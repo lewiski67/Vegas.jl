@@ -24,7 +24,7 @@ You will create branches and push to `origin`, and you will fetch and update you
 Install a plugin on your editor to use [EditorConfig](https://editorconfig.org).
 This will ensure that your editor is configured with important formatting settings.
 
-To format the Julia code we using [Runic.jl](https://github.com/fredrikekre/Runic.jl), so please install it globally first:
+To format the Julia code, we are using [Runic.jl](https://github.com/fredrikekre/Runic.jl), so please install it globally first:
 
 ```julia-repl
 julia --startup-file=no -e 'using Pkg; Pkg.add("Runic")'
