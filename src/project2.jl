@@ -85,7 +85,7 @@ function scan_vegas!(backend, bins_buffer::AbstractVecOrMat)
 end
 
 
-function refine_vegas!(backend, grid::VegasGrid, bins_buffer::AbstractVecOrMat, avg_d::Real)
+function refine_vegas!(backend, grid::VegasGrid, bins_buffer::AbstractVecOrMat, avg_d::AbstractVector)
     # write the refining code here
     # grid is both input and output, override it with the result
 
